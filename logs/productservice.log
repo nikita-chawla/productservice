@@ -1,0 +1,112 @@
+2024-08-07 13:42:02.619 [main] INFO  c.e.p.ProductserviceApplication - Starting ProductserviceApplication using Java 22.0.1 with PID 27924 (C:\Users\nikitachawla\Downloads\nagarroProject\productservice\target\classes started by nikitachawla in C:\Users\nikitachawla\Downloads\nagarroProject\productservice)
+2024-08-07 13:42:02.624 [main] INFO  c.e.p.ProductserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-07 13:42:03.904 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-07 13:42:03.994 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-08-07 13:42:05.113 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-08-07 13:42:05.129 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-08-07 13:42:05.132 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-07 13:42:05.132 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-07 13:42:05.195 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-07 13:42:05.197 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2504 ms
+2024-08-07 13:42:05.696 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-07 13:42:05.773 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-07 13:42:05.822 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-07 13:42:06.213 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-07 13:42:06.250 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-07 13:42:06.641 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19677add
+2024-08-07 13:42:06.642 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-07 13:42:06.695 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-07 13:42:07.477 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-07 13:42:07.537 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-07 13:42:08.252 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-07 13:42:09.194 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2024-08-07 13:42:09.305 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-08-07 13:42:09.331 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-08-07 13:42:09.364 [main] INFO  c.e.p.ProductserviceApplication - Started ProductserviceApplication in 7.724 seconds (process running for 8.244)
+2024-08-07 13:42:09.536 [main] INFO  c.e.p.ProductserviceApplication - ProductserviceApplication started.
+2024-08-07 13:43:09.321 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-07 13:43:09.325 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-07 13:43:09.343 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-07 13:43:13.776 [main] INFO  c.e.p.ProductserviceApplication - Starting ProductserviceApplication using Java 22.0.1 with PID 21284 (C:\Users\nikitachawla\Downloads\nagarroProject\productservice\target\classes started by nikitachawla in C:\Users\nikitachawla\Downloads\nagarroProject\productservice)
+2024-08-07 13:43:13.779 [main] INFO  c.e.p.ProductserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-07 13:43:14.887 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-07 13:43:14.939 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2024-08-07 13:43:15.897 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-08-07 13:43:15.911 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-08-07 13:43:15.913 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-07 13:43:15.913 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-07 13:43:15.990 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-07 13:43:15.992 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2156 ms
+2024-08-07 13:43:16.472 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-07 13:43:16.542 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-07 13:43:16.585 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-07 13:43:17.012 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-07 13:43:17.047 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-07 13:43:17.428 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a71ebf1
+2024-08-07 13:43:17.430 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-07 13:43:17.489 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-07 13:43:18.426 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-07 13:43:18.489 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-07 13:43:19.227 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-07 13:43:20.186 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2024-08-07 13:43:20.310 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-08-07 13:43:20.345 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-08-07 13:43:20.370 [main] INFO  c.e.p.ProductserviceApplication - Started ProductserviceApplication in 7.571 seconds (process running for 8.039)
+2024-08-07 13:43:20.510 [main] INFO  c.e.p.ProductserviceApplication - ProductserviceApplication started.
+2024-08-07 13:44:44.590 [http-nio-8082-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-07 13:44:44.591 [http-nio-8082-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-07 13:44:44.594 [http-nio-8082-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-08-07 13:44:44.967 [http-nio-8082-exec-3] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X POST "http://localhost:8082/products" -H "content-type: application/json" -H "user-agent: PostmanRuntime/7.40.0" -H "accept: */*" -H "postman-token: 8968d7a3-3a1e-47c9-a40d-8d204a8aa44f" -H "host: localhost:8082" -H "accept-encoding: gzip, deflate, br" -H "connection: keep-alive" -H "content-length: 52" -d "{\"id\":null,\"name\":\"Product B\",\"price\":200.0}"
+2024-08-07 13:44:45.249 [http-nio-8082-exec-3] INFO  c.e.productservice.logging.LogAspect - Response: {"id":2,"name":"Product B","price":200.0}
+2024-08-07 13:44:49.597 [http-nio-8082-exec-2] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X GET "http://localhost:8082/products" -H "user-agent: PostmanRuntime/7.40.0" -H "accept: */*" -H "postman-token: 7e1f369d-60d6-494a-80d7-fa789136b6ea" -H "host: localhost:8082" -H "accept-encoding: gzip, deflate, br" -H "connection: keep-alive" -d ""
+2024-08-07 13:44:49.885 [http-nio-8082-exec-2] INFO  c.e.productservice.logging.LogAspect - Response: [{"id":1,"name":"Product B","price":200.0},{"id":2,"name":"Product B","price":200.0}]
+2024-08-07 13:44:55.737 [http-nio-8082-exec-4] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X GET "http://localhost:8082/products/count" -H "user-agent: PostmanRuntime/7.40.0" -H "accept: */*" -H "postman-token: 57870280-873a-4f60-85c4-0420abe7d8d2" -H "host: localhost:8082" -H "accept-encoding: gzip, deflate, br" -H "connection: keep-alive" -d ""
+2024-08-07 13:44:55.749 [http-nio-8082-exec-4] INFO  c.e.productservice.logging.LogAspect - Response: 2
+2024-08-07 13:45:00.304 [http-nio-8082-exec-5] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X GET "http://localhost:8082/products/1" -H "user-agent: PostmanRuntime/7.40.0" -H "accept: */*" -H "postman-token: 6db1ae31-9255-468c-81e8-e54d6bd40398" -H "host: localhost:8082" -H "accept-encoding: gzip, deflate, br" -H "connection: keep-alive" -d "1"
+2024-08-07 13:45:00.331 [http-nio-8082-exec-5] INFO  c.e.productservice.logging.LogAspect - Response: {"id":1,"name":"Product B","price":200.0}
+2024-08-07 13:46:29.745 [http-nio-8082-exec-7] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X GET "http://localhost:8082/products/1" -H "accept: application/json, application/*+json" -H "user-agent: Java/22.0.1" -H "host: localhost:8082" -H "connection: keep-alive" -d "1"
+2024-08-07 13:46:29.751 [http-nio-8082-exec-7] INFO  c.e.productservice.logging.LogAspect - Response: {"id":1,"name":"Product B","price":200.0}
+2024-08-07 14:14:47.664 [http-nio-8082-exec-9] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X GET "http://localhost:8082/products/1" -H "accept: application/json, application/*+json" -H "user-agent: Java/22.0.1" -H "host: localhost:8082" -H "connection: keep-alive" -d "1"
+2024-08-07 14:14:47.675 [http-nio-8082-exec-9] INFO  c.e.productservice.logging.LogAspect - Response: {"id":1,"name":"Product B","price":200.0}
+2024-08-07 14:17:18.257 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-07 14:17:18.267 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-07 14:17:18.280 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-07 14:17:22.223 [main] INFO  c.e.p.ProductserviceApplication - Starting ProductserviceApplication using Java 22.0.1 with PID 24232 (C:\Users\nikitachawla\Downloads\nagarroProject\productservice\target\classes started by nikitachawla in C:\Users\nikitachawla\Downloads\nagarroProject\productservice)
+2024-08-07 14:17:22.227 [main] INFO  c.e.p.ProductserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-07 14:17:23.355 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-07 14:17:23.404 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2024-08-07 14:17:24.363 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-08-07 14:17:24.378 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-08-07 14:17:24.380 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-07 14:17:24.380 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-07 14:17:24.446 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-07 14:17:24.448 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2165 ms
+2024-08-07 14:17:24.999 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-07 14:17:25.074 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-07 14:17:25.132 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-07 14:17:25.513 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-07 14:17:25.565 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-07 14:17:25.966 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51c6e775
+2024-08-07 14:17:25.968 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-07 14:17:26.044 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-07 14:17:26.889 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-07 14:17:26.935 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-07 14:17:27.642 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-07 14:17:29.550 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2024-08-07 14:17:29.985 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-08-07 14:17:30.103 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-08-07 14:17:30.222 [main] INFO  c.e.p.ProductserviceApplication - Started ProductserviceApplication in 8.98 seconds (process running for 9.46)
+2024-08-07 14:17:30.505 [main] INFO  c.e.p.ProductserviceApplication - ProductserviceApplication started.
+2024-08-07 14:17:58.778 [http-nio-8082-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-07 14:17:58.778 [http-nio-8082-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-07 14:17:58.779 [http-nio-8082-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-07 14:17:58.828 [http-nio-8082-exec-3] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X GET "http://localhost:8082/products" -H "user-agent: PostmanRuntime/7.40.0" -H "accept: */*" -H "postman-token: 2cad3468-5ba5-4921-a324-5717f48e074d" -H "host: localhost:8082" -H "accept-encoding: gzip, deflate, br" -H "connection: keep-alive" -d ""
+2024-08-07 14:17:59.079 [http-nio-8082-exec-3] INFO  c.e.productservice.logging.LogAspect - Response: [{"id":1,"name":"Product B","price":200.0},{"id":2,"name":"Product B","price":200.0}]
+2024-08-07 14:18:03.960 [http-nio-8082-exec-6] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X GET "http://localhost:8082/products/count" -H "user-agent: PostmanRuntime/7.40.0" -H "accept: */*" -H "postman-token: bf2e0693-883a-4f00-bd7b-4926cd12ee82" -H "host: localhost:8082" -H "accept-encoding: gzip, deflate, br" -H "connection: keep-alive" -d ""
+2024-08-07 14:18:03.969 [http-nio-8082-exec-6] INFO  c.e.productservice.logging.LogAspect - Response: 2
+2024-08-07 14:18:07.691 [http-nio-8082-exec-10] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X POST "http://localhost:8082/products" -H "content-type: application/json" -H "user-agent: PostmanRuntime/7.40.0" -H "accept: */*" -H "postman-token: 8f660a50-a043-4125-ad2c-3ecc4cd5f9e6" -H "host: localhost:8082" -H "accept-encoding: gzip, deflate, br" -H "connection: keep-alive" -H "content-length: 52" -d "{\"id\":null,\"name\":\"Product B\",\"price\":200.0}"
+2024-08-07 14:18:07.735 [http-nio-8082-exec-10] INFO  c.e.productservice.logging.LogAspect - Response: {"id":3,"name":"Product B","price":200.0}
+2024-08-07 14:18:11.963 [http-nio-8082-exec-7] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X GET "http://localhost:8082/products/count" -H "user-agent: PostmanRuntime/7.40.0" -H "accept: */*" -H "postman-token: d17ec44e-8b38-41e4-8ff6-e5b7f6f043d6" -H "host: localhost:8082" -H "accept-encoding: gzip, deflate, br" -H "connection: keep-alive" -d ""
+2024-08-07 14:18:11.974 [http-nio-8082-exec-7] INFO  c.e.productservice.logging.LogAspect - Response: 3
+2024-08-07 14:18:15.592 [http-nio-8082-exec-1] INFO  c.e.productservice.logging.LogAspect - Generated cURL Command: curl -X GET "http://localhost:8082/products/1" -H "user-agent: PostmanRuntime/7.40.0" -H "accept: */*" -H "postman-token: 9a2f4c17-7a5d-455c-a8ae-029f66bfeeab" -H "host: localhost:8082" -H "accept-encoding: gzip, deflate, br" -H "connection: keep-alive" -d "1"
+2024-08-07 14:18:15.624 [http-nio-8082-exec-1] INFO  c.e.productservice.logging.LogAspect - Response: {"id":1,"name":"Product B","price":200.0}
